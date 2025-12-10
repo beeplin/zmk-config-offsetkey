@@ -675,8 +675,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-75" y="-26" width="150" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-69" y="-24" width="138" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#SYMBOL">
-<text x="0" y="24" class="key hold layer-activator">SYMBOL</text>
+<a href="#SYMCPW">
+<text x="0" y="24" class="key hold layer-activator">SYMCPW</text>
 </a></g>
 <g transform="translate(1064, 252)" class="key keypos-68">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2103,8 +2103,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1344)" class="layer-SYMBOL">
-<text x="0" y="28" class="label" id="SYMBOL">SYMBOL:</text>
+<g transform="translate(40, 1344)" class="layer-SYMCPW">
+<text x="0" y="28" class="label" id="SYMCPW">SYMCPW:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
