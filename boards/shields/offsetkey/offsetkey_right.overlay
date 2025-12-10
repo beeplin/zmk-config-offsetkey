@@ -11,9 +11,11 @@
 #include "rgb.dtsi"
 
 #define QWERTY 0
-#define AMOUSE 1
-#define SCRCFG 2
+#define AUTOMS 1
+#define FNMDMS 2
 #define NAVNUM 3
+#define SYMBOL 4
+#define CONFIG 5
 
 / {
 	chosen {
@@ -105,7 +107,7 @@
     device = <&trackball>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
-        layers = <SCRCFG>;
+        layers = <FNMDMS>;
         input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 1>, <&zip_xy_to_scroll_mapper>;
     };
     snipe {
@@ -113,8 +115,8 @@
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 1 2>;
     };
     move {
-        layers = <QWERTY AMOUSE>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer AMOUSE 400>;
+        layers = <QWERTY AUTOMS>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer AUTOMS 400>;
     };
   };
 
