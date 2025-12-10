@@ -1,9 +1,9 @@
 #define QWERTY 0
 #define AUTOMS 1
-#define FNMDMS 2
+#define FUNMED 2
 #define NAVNUM 3
-// #define SYMCPW 4
-// #define BLERGB 5
+#define SYMBOL 4
+#define CONFIG 5
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 320
@@ -38,7 +38,7 @@
 &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp LBKT        &kp RBKT        &kp BSLH        &kp PG_UP       &kp T
 &mt LCTRL ESC   &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT         &kp ENTER                       &kp PG_DN       &kp G
 &kp LSHFT       &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT                       &kp UP          &kp DEL         &kp B
-&kp LCTRL       &kp LGUI        &kp LALT        &lt FNMDMS CAPS &lt NAVNUM SPACE                &lt NAVNUM SPACE                &kp RALT        &kp RGUI        &kp RCTRL                       &kp LEFT        &kp DOWN        &kp RIGHT       &kp SPACE
+&kp LCTRL       &kp LGUI        &kp LALT        &lt FUNMED CAPS &lt NAVNUM SPACE                &lt SYMBOL SPACE                &kp RALT        &kp RGUI        &kp RCTRL                       &kp LEFT        &kp DOWN        &kp RIGHT       &kp SPACE
 &kp C_BRI_UP    &kp C_PREV      &kp C_NEXT      &kp C_BRI_DN    &kp C_PP        &kp C_MUTE      &mkp LCLK       &mkp MCLK       &mkp RCLK       &none
         >; };
         AUTOMS { label = "AUTOMS"; bindings = <
@@ -49,7 +49,7 @@
 &trans          &trans          &trans          &trans          &trans                          &trans                          &trans          &trans          &trans                          &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
         >;       };
-        FNMDMS { label = "FNMDMS"; bindings = <
+        FUNMED { label = "FUNMED"; bindings = <
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &kp K_APP       &kp F12         &kp F9          &kp F8          &kp F7          &kp PSCRN       &kp C_VOL_UP    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP    &trans          &trans          &trans          &trans
 &sk LCTRL       &kp F11         &kp F6          &kp F5          &kp F4          &kp SLCK        &kp C_VOL_DN    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_NEXT      &kp C_BRI_DN    &trans                          &trans          &trans
@@ -65,21 +65,21 @@
 &sk LCTRL       &sk LGUI        &sk LALT        &kp LALT        &trans                          &kp KP_N0                       &trans          &trans          &trans                          &kp HOME        &kp PG_DN       &kp END         &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
         >; };
-//         SYMCPW { label =  "SYMCPW"; bindings = <
-// &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-// &kp TILDE       &kp EXCL        &kp AT          &kp POUND       &kp DLLR        &kp PRCNT       &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR        &kp LBRC        &kp RBRC        &kp PIPE        &trans          &trans
-// &sk LCTRL       &kp SQT         &kp DQT         &kp LBRC        &kp RBRC        &kp PIPE        &kp PLUS        &kp EQUAL       &kp LPAR        &kp RPAR        &kp COLON       &kp DQT         &trans                          &trans          &trans
-// &sk LSHFT       &kp GRAVE       &kp TILDE       &kp LBKT        &kp RBKT        &kp BSLH        &kp UNDER       &kp MINUS       &kp LT          &kp GT          &kp QMARK       &trans                          &trans          &trans          &trans
-// &sk LCTRL       &sk LGUI        &sk LALT        &caps_word      &mo BLERGB                      &trans                          &trans          &trans          &trans                          &trans          &trans          &trans          &trans
-// &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-//         >; };
-//         BLERGB { label = "BLERGB"; bindings = <
-// &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &bt BT_PRV      &bt BT_NXT      &bt BT_CLR_ALL  &trans          &trans
-// &trans          &trans          &trans          &trans          &trans          &trans          &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &rgb_ug RGB_ON  &out OUT_USB    &out OUT_BLE    &trans          &trans
-// &trans          &trans          &trans          &trans          &trans          &trans          &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &rgb_ug RGB_OFF &ext_power EP_TOG               &trans          &trans
-// &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                          &trans          &trans          &trans
-// &bootloader     &trans          &sys_reset      &trans          &trans                          &trans                          &sys_reset      &trans          &bootloader                     &trans          &trans          &trans          &trans
-// &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-//         >; };
+        SYMBOL { label =  "SYMBOL"; bindings = <
+&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+&kp TILDE       &kp EXCL        &kp AT          &kp POUND       &kp DLLR        &kp PRCNT       &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR        &kp LBRC        &kp RBRC        &kp PIPE        &trans          &trans
+&sk LCTRL       &kp SQT         &kp DQT         &kp LBRC        &kp RBRC        &kp PIPE        &kp PLUS        &kp EQUAL       &kp LPAR        &kp RPAR        &kp COLON       &kp DQT         &trans                          &trans          &trans
+&sk LSHFT       &kp GRAVE       &kp TILDE       &kp LBKT        &kp RBKT        &kp BSLH        &kp UNDER       &kp MINUS       &kp LT          &kp GT          &kp QMARK       &trans                          &trans          &trans          &trans
+&sk LCTRL       &sk LGUI        &sk LALT        &caps_word      &mo CONFIG                      &trans                          &trans          &trans          &trans                          &trans          &trans          &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+        >; };
+        CONFIG { label = "CONFIG"; bindings = <
+&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &bt BT_PRV      &bt BT_NXT      &bt BT_CLR_ALL  &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans          &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &rgb_ug RGB_ON  &out OUT_USB    &out OUT_BLE    &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans          &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &rgb_ug RGB_OFF &ext_power EP_TOG               &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                          &trans          &trans          &trans
+&bootloader     &trans          &sys_reset      &trans          &trans                          &trans                          &sys_reset      &trans          &bootloader                     &trans          &trans          &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+        >; };
     };
 };
