@@ -12,7 +12,7 @@
 
 #define BASE 0
 #define MOUSE 1
-#define SCRCFT 2
+#define SCRCFG 2
 #define NAVNUM 3
 
 / {
@@ -105,18 +105,16 @@
     device = <&trackball>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
-      layers = <SCRCFT>;
-      input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 10>, <&zip_xy_to_scroll_mapper>;
+        layers = <SCRCFG>;
+        input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 10>, <&zip_xy_to_scroll_mapper>;
     };
-    
     snipe {
-      layers = <NAVNUM>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 1 3>;
+        layers = <NAVNUM>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 1 2>;
     };
-
     move {
-      layers = <BASE MOUSE>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer MOUSE 400>;
+        layers = <BASE MOUSE>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer MOUSE 400>;
     };
   };
 
