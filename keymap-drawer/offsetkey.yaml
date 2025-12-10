@@ -253,7 +253,7 @@ layers:
   - RGB HUI
   - RGB SAD
   - RGB EFF
-  - $$mdi:play-pause$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
