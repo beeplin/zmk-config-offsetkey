@@ -2,21 +2,21 @@ layout: {zmk_keyboard: offsetkey}
 layers:
   BASE:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: ' 1 ', s: '!'}
+  - {t: ' 2 ', s: '@'}
+  - {t: ' 3 ', s: '#'}
+  - {t: ' 4 ', s: $}
+  - {t: ' 5 ', s: '%'}
+  - {t: ' 6 ', s: ^}
+  - {t: ' 7 ', s: '&'}
+  - {t: ' 8 ', s: '*'}
+  - {t: ' 9 ', s: (}
+  - {t: ' 0 ', s: )}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - F5
-  - {t: '6', s: ^}
+  - {t: ' 6 ', s: ^}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -31,7 +31,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - PG UP
+  - PGUP
   - T
   - $$mdi:apple-keyboard-caps$$
   - A
@@ -46,7 +46,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - PGDN
   - G
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -64,13 +64,13 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - B
   - $$mdi:apple-keyboard-control$$
-  - LGUI
+  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
   - SCRCFG
   - {t: '$$mdi:keyboard-space$$', h: NAVNUM}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - RGUI
+  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -82,10 +82,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {type: none}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -173,21 +173,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCRCFG:
-  - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - BT DISC0
+  - BT DISC1
+  - BT DISC2
+  - BT DISC3
+  - BT DISC4
+  - BT PRV
+  - BT NXT
+  - BT CLRALL
+  - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-5$$
   - $$mdi:volume-high$$
@@ -202,10 +202,10 @@ layers:
   - RGB SPI
   - OUT USB
   - OUT BLE
-  - '&studio_unlock'
+  - studio unlock
+  - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-7$$
+  - $$mdi:brightness-4$$
   - $$mdi:volume-low$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
@@ -218,7 +218,7 @@ layers:
   - RGB SPD
   - EP OFF
   - EP ON
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - C(Z)
@@ -233,12 +233,12 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SPI
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {type: held}
   - '&lm3 LALT'
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
@@ -253,7 +253,7 @@ layers:
   - RGB HUI
   - RGB SAD
   - RGB EFF
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -277,15 +277,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - PG UP
+  - PGUP
   - $$mdi:arrow-up-bold$$
-  - PG DN
+  - PGDN
   - INS
   - KP DIVIDE
   - KP 7
   - KP 8
   - KP 9
-  - KP MINUS
+  - $$mdi:minus-circle-outline$$
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
@@ -297,41 +297,41 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
-  - KP MULTIPLY
+  - $$mdi:asterisk-circle-outline$$
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
+  - $$mdi:plus-circle-outline$$
   - APP
   - KP ENTER
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - '&mkp MB4'
+  - MB4
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
-  - '&mkp MB5'
+  - MB5
   - KP NLCK
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG UP
+  - PGUP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {type: held}
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - PG DN
+  - PGDN
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
