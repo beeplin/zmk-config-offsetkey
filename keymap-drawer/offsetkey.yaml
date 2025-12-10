@@ -221,11 +221,11 @@ layers:
   - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - C(Z)
-  - C(X)
-  - C(C)
-  - C(V)
-  - C(Y)
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
