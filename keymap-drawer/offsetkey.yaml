@@ -220,7 +220,7 @@ layers:
   - EP ON
   - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
   - Ctl+Z
   - Ctl+X
   - Ctl+C
