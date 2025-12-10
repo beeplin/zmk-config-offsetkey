@@ -15,7 +15,7 @@
 #define FNMDMS 2
 #define NAVNUM 3
 #define SYMBOL 4
-#define CONFIG 5
+#define BLERGB 5
 
 / {
 	chosen {
