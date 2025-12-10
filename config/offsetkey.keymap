@@ -4,7 +4,7 @@
 #define NAVNUM 3
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 40
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 160
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors/toggle_io.dtsi>
