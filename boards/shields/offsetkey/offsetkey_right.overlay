@@ -8,8 +8,12 @@
 #include <dt-bindings/led/led.h>
 #include "offsetkey.dtsi"
 #include "trackball.dtsi"
-#define SYMBOLS 2
 #include "rgb.dtsi"
+
+#define BASE 0
+#define MOUSE 1
+#define SCRCFT 2
+#define NAVNUM 3
 
 / {
 	chosen {
@@ -23,7 +27,7 @@
         row-gpios
             = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 23 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 30  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
@@ -101,9 +105,25 @@
     device = <&trackball>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
-      layers = <SYMBOLS>;
+      layers = <SCRCFT>;
       input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 10>, <&zip_xy_to_scroll_mapper>;
     };
+    
+    snipe {
+      layers = <NAVNUM>;
+      input-processors = <&zip_xy_scaler 1 3>;
+    };
+
+    move {
+      layers = <BASE MOUSE>;
+      input-processors = <&auto_mouse_layer MOUSE 400>;
+    };
+  };
+
+  auto_mouse_layer: auto_mouse_layer {
+    compatible = "zmk,input-processor-temp-layer";
+    #input-processor-cells = <2>;
+    require-prior-idle-ms = <500>;
   };
 }; 
 
