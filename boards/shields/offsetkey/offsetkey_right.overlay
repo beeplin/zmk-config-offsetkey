@@ -10,8 +10,8 @@
 #include "trackball.dtsi"
 #include "rgb.dtsi"
 
-#define BASE 0
-#define MOUSE 1
+#define QWERTY 0
+#define AMOUSE 1
 #define SCRCFG 2
 #define NAVNUM 3
 
@@ -106,15 +106,15 @@
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
         layers = <SCRCFG>;
-        input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 4 1>, <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 2 1>, <&zip_xy_to_scroll_mapper>;
     };
     snipe {
         layers = <NAVNUM>;
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 1 2>;
     };
     move {
-        layers = <BASE MOUSE>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer MOUSE 400>;
+        layers = <QWERTY AMOUSE>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&auto_mouse_layer AMOUSE 400>;
     };
   };
 
