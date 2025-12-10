@@ -87,108 +87,108 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {type: none}
   AUTOMS:
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   FUNMED:
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - APP
   - F12
   - F9
@@ -201,10 +201,10 @@ layers:
   - MB5
   - $$mdi:skip-previous$$
   - $$mdi:brightness-5$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - F11
   - F6
@@ -217,9 +217,9 @@ layers:
   - $$mdi:pan-right$$
   - $$mdi:skip-next$$
   - $$mdi:brightness-4$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - F10
   - F3
@@ -231,33 +231,33 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {type: held}
   - '&lm 3 LALT'
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   NAVNUM:
   - {t: '`', s: '~'}
   - F1
@@ -273,8 +273,8 @@ layers:
   - F11
   - F12
   - $$mdi:printer-outline$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
   - BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -289,8 +289,8 @@ layers:
   - FORWARD
   - SLCK
   - PAUSE BREAK
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -304,8 +304,8 @@ layers:
   - KP PLUS
   - APP
   - KP ENTER
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - MB4
   - $$mdi:mouse-right-click-outline$$
@@ -317,50 +317,50 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
   - PGUP
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - KP 0
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - HOME
   - PGDN
   - END
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   SYMBOL:
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - '~'
   - '!'
   - '@'
@@ -375,8 +375,8 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '''', s: '"'}
   - '"'
@@ -389,9 +389,9 @@ layers:
   - )
   - ':'
   - '"'
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '`', s: '~'}
   - '~'
@@ -403,33 +403,33 @@ layers:
   - <
   - '>'
   - '?'
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:alpha-w-box$$
   - CONFIG
   - {type: held}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   CONFIG:
   - BT CLR
   - BT SEL0
@@ -445,14 +445,14 @@ layers:
   - BT PRV
   - BT NXT
   - BT CLRALL
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - RGB EFR
   - RGB HUI
   - RGB SAI
@@ -461,14 +461,14 @@ layers:
   - RGB ON
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - RGB EFF
   - RGB HUD
   - RGB SAD
@@ -476,43 +476,43 @@ layers:
   - RGB SPD
   - RGB OFF
   - EP TOG
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - boot loader
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
   - {t: sys reset, type: bootloader}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
   - {type: held}
   - {type: held}
   - {t: sys reset, type: bootloader}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
   - boot loader
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
