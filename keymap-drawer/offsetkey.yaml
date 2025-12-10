@@ -272,11 +272,11 @@ layers:
   - F10
   - F11
   - F12
-  - $$mdi:printer-outline$$
+  - APP
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - BACK
   - HOME
+  - END
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
@@ -286,7 +286,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - FORWARD
+  - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -302,7 +302,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - APP
+  - INS
   - KP ENTER
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
