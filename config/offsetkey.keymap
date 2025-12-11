@@ -18,8 +18,8 @@
 #define SYMBOL 4
 #define CONFIG 5
 
-// #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-// #define ZMK_POINTING_DEFAULT_SCRL_VAL 320
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 320
 
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
